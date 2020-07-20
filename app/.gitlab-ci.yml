@@ -1,0 +1,15 @@
+# A functional, but probably terrible, example of GitLab CI for Flutter
+image: cirrusci/flutter
+
+variables:
+before_script:
+  - flutter channel beta
+  - flutter upgrade
+  
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - flutter build apk
