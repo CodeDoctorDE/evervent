@@ -102,7 +102,7 @@ class _DatePageState extends State<DatePage> {
                   ],
                 )));
           }),
-      drawer: EverventDrawer(Page.events),
+      drawer: EverventDrawer(DrawerPage.events),
     );
   }
 }

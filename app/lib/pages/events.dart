@@ -75,7 +75,7 @@ class _EventsPageState extends State<EventsPage> {
       },
       )
           : null,
-      drawer: EverventDrawer(Page.events),
+      drawer: EverventDrawer(DrawerPage.events),
     );
   }
 }

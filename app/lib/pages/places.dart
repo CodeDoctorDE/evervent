@@ -25,7 +25,7 @@ class PlacesPageState extends State<StatefulWidget> {
     final _scaffoldKey = GlobalKey<ScaffoldState>();
     return Scaffold(
       key: _scaffoldKey,
-      drawer: EverventDrawer(Page.places),
+      drawer: EverventDrawer(DrawerPage.places),
       appBar: AppBar(title: Text("Places"),
         leading: IconButton(
           icon: Icon(MdiIcons.menu),

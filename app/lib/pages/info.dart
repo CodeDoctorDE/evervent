@@ -20,7 +20,7 @@ class InfoPage extends StatelessWidget {
     final _scaffoldKey = GlobalKey<ScaffoldState>();
 
     return Scaffold(
-      drawer: EverventDrawer(Page.info),
+      drawer: EverventDrawer(DrawerPage.info),
       key: _scaffoldKey,
       appBar: AppBar(
         title: Text("Information"),

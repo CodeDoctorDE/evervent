@@ -22,7 +22,7 @@ class _ServerPageState extends State<ServerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: EverventDrawer(Page.server),
+      drawer: EverventDrawer(DrawerPage.server),
       appBar: AppBar(
         title: Text('Edit Servers (WIP)'),
         actions: <Widget>[

@@ -11,10 +11,10 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import 'pages/groups.dart';
 import 'service/api_service.dart';
 
-enum Page { dashboard, groups, events, places, info, server, settings }
+enum DrawerPage { dashboard, groups, events, places, info, server, settings }
 
 class EverventDrawer extends StatelessWidget {
-  final Page page;
+  final DrawerPage page;
   EverventDrawer(this.page);
 
   final api = GetIt.I.get<ApiService>();
@@ -38,10 +38,8 @@ class EverventDrawer extends StatelessWidget {
                   ),
                   Text("Evervent",
                       style: Theme.of(context).textTheme.headline5),
-                  Text("github.com/evervent",
+                  Text("github.com/codedoctorde/evervent",
                       style: Theme.of(context).textTheme.subtitle1),
-                  Text("evervent.github.io",
-                      style: Theme.of(context).textTheme.subtitle2),
                   /*    ListTile(
                     trailing: Icon(MdiIcons.swapHorizontal),
                     title: Text(api.server.address),
@@ -59,7 +57,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Dashboard'),
             leading: Icon(MdiIcons.viewDashboard),
-            selected: page == Page.dashboard,
+            selected: page == DrawerPage.dashboard,
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
@@ -71,7 +69,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Events'),
             leading: Icon(MdiIcons.timeline),
-            selected: page == Page.events,
+            selected: page == DrawerPage.events,
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
@@ -83,7 +81,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Groups'),
             leading: Icon(MdiIcons.accountGroup),
-            selected: page == Page.groups,
+            selected: page == DrawerPage.groups,
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
@@ -95,7 +93,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Places'),
             leading: Icon(MdiIcons.grid),
-            selected: page == Page.places,
+            selected: page == DrawerPage.places,
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
@@ -118,7 +116,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Server'),
             leading: Icon(MdiIcons.server),
-            selected: page == Page.server,
+            selected: page == DrawerPage.server,
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
@@ -130,7 +128,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Info'),
             leading: Icon(MdiIcons.informationOutline),
-            selected: page == Page.info,
+            selected: page == DrawerPage.info,
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
@@ -141,7 +139,7 @@ class EverventDrawer extends StatelessWidget {
           ),
           ListTile(
             title: Text('Settings'),
-            selected: page == Page.settings,
+            selected: page == DrawerPage.settings,
             leading: Icon(MdiIcons.settingsOutline),
             onTap: () {
               Navigator.of(context).pop();
