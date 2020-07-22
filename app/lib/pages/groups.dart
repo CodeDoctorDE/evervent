@@ -72,7 +72,7 @@ class _GroupPageState extends State<GroupPage> {
         },
             )
           : null,
-      drawer: EverventDrawer(Page.groups),
+      drawer: EverventDrawer(DrawerPage.groups),
     );
   }
 }

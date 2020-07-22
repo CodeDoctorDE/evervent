@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      drawer: EverventDrawer(Page.dashboard),
+      drawer: EverventDrawer(DrawerPage.dashboard),
       key: _scaffoldKey,
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by

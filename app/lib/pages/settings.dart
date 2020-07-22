@@ -49,7 +49,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 )
             );
           }),
-      drawer: EverventDrawer(Page.settings),
+      drawer: EverventDrawer(DrawerPage.settings),
     );
   }
 }
