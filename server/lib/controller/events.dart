@@ -1,7 +1,7 @@
 import 'package:aqueduct/aqueduct.dart' hide Level;
-import 'package:jakeson_server/model/event.dart';
-import 'package:jakeson_server/model/group.dart';
-import 'package:jakeson_server/model/user.dart';
+import 'package:evervent_server/model/event.dart';
+import 'package:evervent_server/model/group.dart';
+import 'package:evervent_server/model/user.dart';
 
 class EventsController extends ResourceController {
   EventsController(this.context);

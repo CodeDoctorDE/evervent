@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:jakeson/main.dart';
-import 'package:jakeson/pages/events.dart';
-import 'package:jakeson/pages/info.dart';
-import 'package:jakeson/pages/places.dart';
-import 'package:jakeson/pages/servers.dart';
-import 'package:jakeson/pages/settings.dart';
+import 'package:evervent/main.dart';
+import 'package:evervent/pages/events.dart';
+import 'package:evervent/pages/info.dart';
+import 'package:evervent/pages/places.dart';
+import 'package:evervent/pages/servers.dart';
+import 'package:evervent/pages/settings.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'pages/groups.dart';
@@ -13,9 +13,9 @@ import 'service/api_service.dart';
 
 enum Page { dashboard, groups, events, places, info, server, settings }
 
-class JakesonDrawer extends StatelessWidget {
+class EverventDrawer extends StatelessWidget {
   final Page page;
-  JakesonDrawer(this.page);
+  EverventDrawer(this.page);
 
   final api = GetIt.I.get<ApiService>();
 
@@ -36,11 +36,11 @@ class JakesonDrawer extends StatelessWidget {
                     "assets/icon.png",
                     height: 70,
                   ),
-                  Text("Jakeson",
+                  Text("Evervent",
                       style: Theme.of(context).textTheme.headline5),
-                  Text("gitlab.com/jakeson",
+                  Text("github.com/evervent",
                       style: Theme.of(context).textTheme.subtitle1),
-                  Text("jakeson.gitlab.io",
+                  Text("evervent.github.io",
                       style: Theme.of(context).textTheme.subtitle2),
                   /*    ListTile(
                     trailing: Icon(MdiIcons.swapHorizontal),

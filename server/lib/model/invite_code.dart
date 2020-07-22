@@ -1,4 +1,4 @@
-import 'package:jakeson_server/jakeson_server.dart';
+import 'package:evervent_server/evervent_server.dart';
 
 class InviteCode extends ManagedObject<_InviteCode> implements _InviteCode {
   bool isValid() {

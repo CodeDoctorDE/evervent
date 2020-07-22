@@ -1,6 +1,6 @@
 import 'package:aqueduct/aqueduct.dart' hide Level;
-import 'package:jakeson_server/model/invite_code.dart';
-import 'package:jakeson_server/model/user.dart';
+import 'package:evervent_server/model/invite_code.dart';
+import 'package:evervent_server/model/user.dart';
 
 class AuthRegisterController extends ResourceController {
   AuthRegisterController(this.context, this.authServer);

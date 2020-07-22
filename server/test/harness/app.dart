@@ -1,12 +1,12 @@
-import 'package:jakeson_server/jakeson_server.dart';
+import 'package:evervent_server/evervent_server.dart';
 import 'package:aqueduct_test/aqueduct_test.dart';
 
-export 'package:jakeson_server/jakeson_server.dart';
+export 'package:evervent_server/evervent_server.dart';
 export 'package:aqueduct_test/aqueduct_test.dart';
 export 'package:test/test.dart';
 export 'package:aqueduct/aqueduct.dart';
 
-/// A testing harness for jakeson_server.
+/// A testing harness for evervent_server.
 ///
 /// A harness for testing an aqueduct application. Example test file:
 ///
@@ -19,7 +19,7 @@ export 'package:aqueduct/aqueduct.dart';
 ///           });
 ///         }
 ///
-class Harness extends TestHarness<JakesonServerChannel> {
+class Harness extends TestHarness<EverventServerChannel> {
   @override
   Future onSetUp() async {}
 

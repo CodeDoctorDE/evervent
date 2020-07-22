@@ -1,8 +1,8 @@
-//import 'package:jakeson_server/service/imap_get.dart';
-import 'package:jakeson_server/jakeson_server.dart';
+//import 'package:evervent_server/service/imap_get.dart';
+import 'package:evervent_server/evervent_server.dart';
 
 Future main() async {
-  final app = Application<JakesonServerChannel>()
+  final app = Application<EverventServerChannel>()
     ..options.configurationFilePath = "config.yaml"
     ..options.port = 8888;
 

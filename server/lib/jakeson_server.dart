@@ -1,7 +1,7 @@
-/// jakeson_server
+/// evervent_server
 ///
 /// A Aqueduct web server.
-library jakeson_server;
+library evervent_server;
 
 export 'dart:async';
 export 'dart:io';

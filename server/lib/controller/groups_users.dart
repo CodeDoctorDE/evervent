@@ -1,7 +1,7 @@
 import 'package:aqueduct/aqueduct.dart' hide Level;
-import 'package:jakeson_server/model/group.dart';
-import 'package:jakeson_server/model/group_user.dart';
-import 'package:jakeson_server/model/user.dart';
+import 'package:evervent_server/model/group.dart';
+import 'package:evervent_server/model/group_user.dart';
+import 'package:evervent_server/model/user.dart';
 
 class GroupsUsersController extends ResourceController {
   GroupsUsersController(this.context);

@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jakeson/drawer.dart';
+import 'package:evervent/drawer.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -20,7 +20,7 @@ class InfoPage extends StatelessWidget {
     final _scaffoldKey = GlobalKey<ScaffoldState>();
 
     return Scaffold(
-      drawer: JakesonDrawer(Page.info),
+      drawer: EverventDrawer(Page.info),
       key: _scaffoldKey,
       appBar: AppBar(
         title: Text("Information"),
@@ -90,7 +90,7 @@ class InfoPage extends StatelessWidget {
                               .headline6,
                         ),
                         Text(
-                            "GitLab: https://gitlab.com/jakeson \r\n"
+                            "GitLab: https://github.com/evervent \r\n"
                                 "Version: Alpha 0.0.1 \r\n"
                                 "Contributors: CodeDoctorDE, redsolver \r\n"
 
@@ -99,7 +99,7 @@ class InfoPage extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                launch("https://gitlab.com/jakeson");
+                launch("https://github.com/evervent");
               },
             ),
           ],

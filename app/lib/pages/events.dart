@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:jakeson/drawer.dart';
-import 'package:jakeson/models/event.dart';
-import 'package:jakeson/models/user.dart';
-import 'package:jakeson/pages/add_event.dart';
-import 'package:jakeson/pages/event.dart';
-import 'package:jakeson/service/api_service.dart';
+import 'package:evervent/drawer.dart';
+import 'package:evervent/models/event.dart';
+import 'package:evervent/models/user.dart';
+import 'package:evervent/pages/add_event.dart';
+import 'package:evervent/pages/event.dart';
+import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class EventsPage extends StatefulWidget {
@@ -75,7 +75,7 @@ class _EventsPageState extends State<EventsPage> {
       },
       )
           : null,
-      drawer: JakesonDrawer(Page.events),
+      drawer: EverventDrawer(Page.events),
     );
   }
 }

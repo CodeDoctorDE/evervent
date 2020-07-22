@@ -1,4 +1,4 @@
-import 'package:jakeson_server/model/user.dart';
+import 'package:evervent_server/model/user.dart';
 import 'package:yaml/yaml.dart';
 
 import 'package:aqueduct/aqueduct.dart';
@@ -13,13 +13,13 @@ import 'controller/groups.dart';
 import 'controller/groups_users.dart';
 import 'controller/user_perms.dart';
 import 'controller/users.dart';
-import 'jakeson_server.dart';
+import 'evervent_server.dart';
 
 /// This type initializes an application.
 ///
 /// Override methods in this class to set up routes and initialize services like
 /// database connections. See http://aqueduct.io/docs/http/channel/.
-class JakesonServerChannel extends ApplicationChannel {
+class EverventServerChannel extends ApplicationChannel {
   ManagedContext context;
   AuthServer authServer;
 

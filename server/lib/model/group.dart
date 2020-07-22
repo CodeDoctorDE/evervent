@@ -1,5 +1,5 @@
-import 'package:jakeson_server/model/user.dart';
-import 'package:jakeson_server/jakeson_server.dart';
+import 'package:evervent_server/model/user.dart';
+import 'package:evervent_server/evervent_server.dart';
 
 import 'event.dart';
 import 'group_user.dart';

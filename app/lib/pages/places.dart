@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jakeson/drawer.dart';
+import 'package:evervent/drawer.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class PlacesPage extends StatefulWidget {
@@ -25,7 +25,7 @@ class PlacesPageState extends State<StatefulWidget> {
     final _scaffoldKey = GlobalKey<ScaffoldState>();
     return Scaffold(
       key: _scaffoldKey,
-      drawer: JakesonDrawer(Page.places),
+      drawer: EverventDrawer(Page.places),
       appBar: AppBar(title: Text("Places"),
         leading: IconButton(
           icon: Icon(MdiIcons.menu),

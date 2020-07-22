@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:intl/intl.dart';
-import 'package:jakeson/colors.dart' as colors;
-import 'package:jakeson/models/user.dart';
-import 'package:jakeson/service/api_service.dart';
+import 'package:evervent/colors.dart' as colors;
+import 'package:evervent/models/user.dart';
+import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class AppointmentPage extends StatefulWidget {

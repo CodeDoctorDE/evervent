@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:jakeson/colors.dart' as colors;
-import 'package:jakeson/drawer.dart';
-import 'package:jakeson/main.dart';
-import 'package:jakeson/models/server.dart';
-import 'package:jakeson/pages/groups.dart';
-import 'package:jakeson/service/api_service.dart';
+import 'package:evervent/colors.dart' as colors;
+import 'package:evervent/drawer.dart';
+import 'package:evervent/main.dart';
+import 'package:evervent/models/server.dart';
+import 'package:evervent/pages/groups.dart';
+import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import 'add_server.dart';
@@ -22,7 +22,7 @@ class _ServerPageState extends State<ServerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: JakesonDrawer(Page.server),
+      drawer: EverventDrawer(Page.server),
       appBar: AppBar(
         title: Text('Edit Servers (WIP)'),
         actions: <Widget>[

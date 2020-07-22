@@ -1,6 +1,6 @@
 import 'package:aqueduct/aqueduct.dart' hide Level;
-import 'package:jakeson_server/model/appointment.dart';
-import 'package:jakeson_server/model/event.dart';
+import 'package:evervent_server/model/appointment.dart';
+import 'package:evervent_server/model/event.dart';
 class EventsAppointmentsController extends ResourceController {
   EventsAppointmentsController(this.context);
 

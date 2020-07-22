@@ -1,4 +1,4 @@
-package com.gitlab.jakeson.app
+package com.github.evervent.app
 
 import android.os.Bundle
 import io.flutter.app.FlutterActivity

@@ -1,4 +1,4 @@
-import 'package:jakeson_server/jakeson_server.dart';
+import 'package:evervent_server/evervent_server.dart';
 
 import 'group.dart';
 import 'user.dart';

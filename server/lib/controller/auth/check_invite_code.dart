@@ -1,6 +1,6 @@
 import 'package:aqueduct/aqueduct.dart' hide Level;
 import 'package:aqueduct/aqueduct.dart';
-import 'package:jakeson_server/model/invite_code.dart';
+import 'package:evervent_server/model/invite_code.dart';
 
 class CheckInviteCodeController extends ResourceController {
   CheckInviteCodeController(this.context);

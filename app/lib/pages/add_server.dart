@@ -4,11 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
-import 'package:jakeson/colors.dart' as colors;
-import 'package:jakeson/main.dart';
-import 'package:jakeson/models/server.dart';
-import 'package:jakeson/pages/servers.dart';
-import 'package:jakeson/service/api_service.dart';
+import 'package:evervent/colors.dart' as colors;
+import 'package:evervent/main.dart';
+import 'package:evervent/models/server.dart';
+import 'package:evervent/pages/servers.dart';
+import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:email_validator/email_validator.dart';
 
@@ -418,9 +418,9 @@ class _AddServerPageState extends State<AddServerPage>
                             /*
 
                         var data = json.decode(res.body);
-                        if (data['jakeson'] == null) {
+                        if (data['evervent'] == null) {
                           setState(() {
-                            error = 'Not a jakeson server';
+                            error = 'Not a evervent server';
                           });
                           return;
                         }
@@ -474,7 +474,7 @@ class _AddServerPageState extends State<AddServerPage>
       var data = json.decode(res.body);
       if (data['version'] == null) {
         setState(() {
-          error = 'Not a jakeson server';
+          error = 'Not a evervent server';
         });
         return;
       }

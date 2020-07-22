@@ -3,10 +3,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive/hive.dart';
-import 'package:jakeson/colors.dart' as colors;
-import 'package:jakeson/drawer.dart';
-import 'package:jakeson/pages/servers.dart';
-import 'package:jakeson/service/api_service.dart';
+import 'package:evervent/colors.dart' as colors;
+import 'package:evervent/drawer.dart';
+import 'package:evervent/pages/servers.dart';
+import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -50,15 +50,15 @@ void main() async {
 
   GetIt.I.registerSingleton<ApiService>(ApiService());
 
-  runApp(Jakeson());
+  runApp(Evervent());
 }
 
-class Jakeson extends StatelessWidget {
+class Evervent extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Jakeson',
+        title: 'Evervent',
         theme: ThemeData(
           primaryColor: colors.primary,
           accentColor: colors.secondary,
@@ -123,12 +123,12 @@ class _HomePageState extends State<HomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      drawer: JakesonDrawer(Page.dashboard),
+      drawer: EverventDrawer(Page.dashboard),
       key: _scaffoldKey,
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text("Jakeson"),
+        title: Text("Evervent"),
         leading: IconButton(
           icon: Icon(MdiIcons.menu),
           onPressed: () {

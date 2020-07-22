@@ -1,4 +1,4 @@
-# Jakeson - Group Management
+# Evervent - Group Management
 
 An app where you can manage groups, calendar, places and more...
 

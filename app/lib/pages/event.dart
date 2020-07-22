@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:jakeson/colors.dart' as colors;
-import 'package:jakeson/models/event.dart';
-import 'package:jakeson/models/user.dart';
-import 'package:jakeson/pages/add_event.dart';
-import 'package:jakeson/pages/appointment.dart';
-import 'package:jakeson/service/api_service.dart';
+import 'package:evervent/colors.dart' as colors;
+import 'package:evervent/models/event.dart';
+import 'package:evervent/models/user.dart';
+import 'package:evervent/pages/add_event.dart';
+import 'package:evervent/pages/appointment.dart';
+import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class EventPage extends StatefulWidget {
