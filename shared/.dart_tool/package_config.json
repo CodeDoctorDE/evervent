@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "shared",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    }
+  ],
+  "generated": "2020-07-22T18:55:17.812026Z",
+  "generator": "pub",
+  "generatorVersion": "2.8.4"
+}

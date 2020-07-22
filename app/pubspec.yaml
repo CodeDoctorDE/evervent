@@ -17,23 +17,25 @@ environment:
   sdk: ">=2.3.0 <3.0.0"
 
 dependencies:
-  url_launcher: 5.5.0
+  url_launcher: 5.2.5
   #  url_launcher_web:
   #    git:
   #      url: git://github.com/flutter/plugins.git
   #      path: packages/url_launcher/url_launcher_web
-  material_design_icons_flutter: ^4.0.5345
+  material_design_icons_flutter: ^3.4.4995
   flutter:
     sdk: flutter
-  yaml: ^2.2.1
+  yaml: ^2.2.0
   hive: ^1.4.1+1
-  hive_flutter: ^0.3.0+2
-  path_provider: ^1.6.11
+  hive_flutter: ^0.3.0+1
+  path_provider: ^1.6.1
   #provider: ^3.1.0
-  get_it: ^4.0.3
+  get_it: ^4.0.0
   datetime_picker_formfield: ^1.0.0
   intl: ^0.16.1
-  email_validator: '^1.0.5'
+  email_validator: '^1.0.0'
+  shared:
+    path: ../shared
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -42,8 +44,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  hive_generator: ^0.7.0+2
-  build_runner: ^1.10.0
+  hive_generator: ^0.7.0
+  build_runner: ^1.7.4
+
+
 
 dependency_overrides:
   path: ^1.7.0
