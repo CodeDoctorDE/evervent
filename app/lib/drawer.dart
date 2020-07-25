@@ -140,7 +140,7 @@ class EverventDrawer extends StatelessWidget {
           ListTile(
             title: Text('Settings'),
             selected: page == DrawerPage.settings,
-            leading: Icon(MdiIcons.settingsOutline),
+            leading: Icon(MdiIcons.cogOutline),
             onTap: () {
               Navigator.of(context).pop();
               Navigator.pushReplacement(
