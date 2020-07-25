@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:hive/hive.dart';
-import 'package:evervent/models/event.dart';
-import 'package:evervent/models/group.dart';
-import 'package:evervent/models/server.dart';
+import 'package:shared/models/event.dart';
+import 'package:shared/models/group.dart';
+import 'package:shared/models/server.dart';
 import 'package:http/http.dart' as http;
-import 'package:evervent/models/user.dart';
+import 'package:shared/models/user.dart';
 
 class ApiService {
   Server server;

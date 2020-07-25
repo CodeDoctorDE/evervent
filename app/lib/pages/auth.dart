@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:email_validator/email_validator.dart';
 import 'package:evervent/main.dart';
-import 'package:evervent/models/server.dart';
+import 'package:shared/models/server.dart';
 import 'package:evervent/pages/servers.dart';
 import 'package:evervent/service/api_service.dart';
 import 'package:flutter/material.dart';

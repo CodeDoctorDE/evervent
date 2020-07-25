@@ -5,7 +5,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:evervent/colors.dart' as colors;
 import 'package:evervent/drawer.dart';
 import 'package:evervent/main.dart';
-import 'package:evervent/models/server.dart';
+import 'package:shared/models/server.dart';
 import 'package:evervent/pages/groups.dart';
 import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
