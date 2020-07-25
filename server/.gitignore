@@ -17,3 +17,4 @@ Dart_Packages.xml
 migrations/
 migrations
 database.yaml
+.vscode
