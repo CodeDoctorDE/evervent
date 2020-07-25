@@ -10,9 +10,9 @@ import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'models/event.dart';
-import 'models/group.dart';
-import 'models/server.dart';
+import 'package:shared/models/event.dart';
+import 'package:shared/models/group.dart';
+import 'package:shared/models/server.dart';
 import 'pages/add_server.dart';
 
 void main() async {

@@ -7,7 +7,7 @@ import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
 import 'package:evervent/colors.dart' as colors;
 import 'package:evervent/main.dart';
-import 'package:evervent/models/server.dart';
+import 'package:shared/models/server.dart';
 import 'package:evervent/pages/servers.dart';
 import 'package:evervent/service/api_service.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
